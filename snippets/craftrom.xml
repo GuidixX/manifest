@@ -2,8 +2,10 @@
 <manifest>
     <remote  name="craftrom"
            fetch="https://github.com/craftrom-os"
+           sync-c="true"
+           sync-j="4"
            revision="refs/heads/uther" />
     <!-- CraftRomOS additions -->
     <project path="manifest" name="manifest" remote="craftrom" />
-    <project path="vendor/lineage" name="vendor_craftrom" />
+    <project path="vendor/lineage" name="vendor_craftrom" remote="craftrom" />
 </manifest>
