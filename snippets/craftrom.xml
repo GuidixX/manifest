@@ -8,4 +8,5 @@
     <!-- CraftRomOS additions -->
     <project path="manifest" name="manifest" remote="craftrom" />
     <project path="vendor/lineage" name="vendor_craftrom" remote="craftrom" />
+    <project path="packages/overlays/Lineage" name="packages_overlays_Lineage" remote="craftrom"/>
 </manifest>
